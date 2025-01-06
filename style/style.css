@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+  --cor-primaria: #222831;
+  --cor-secundaria: #EEEEEE;
+  --cor-terciaria: #76ABAE;
+  --cor-houver: #31363F;
+  --fonte-primaria: "Krona One", sans-serif;
+  --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+}
+
+.cabecalho {
+  padding: 2% 0 0 15%;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 80px;
+}
+
+.cabecalho-menu-link {
+  font-family: var(--fonte-secundaria);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--cor-terciaria);
+  text-decoration: none;
+}
+
+.cabecalho-menu-link:hover {
+  background-color: var(--cor-houver);
+  padding: 3%;
+}
+
+.container {
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-conteudo {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.titulo {
+  font-family: var(--fonte-primaria);
+  font-size: 36px;
+}
+
+.titulo-destaque {
+  color: var(--cor-terciaria);
+}
+
+.paragrafo {
+  font-family: var(--fonte-secundaria);
+  font-size: 24px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.links-subtitulo {
+  font-family: var(--fonte-primaria);
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border: 2px solid var(--cor-terciaria);
+  width: 378px;
+  text-align: center;
+  border-radius: 8px;
+  font-family: var(--fonte-secundaria);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--cor-secundaria);
+  padding: 21.5px 0;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: var(--cor-houver);
+}
+
+.rodape {
+  padding: 24px;
+  background-color: var(--cor-terciaria);
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--cor-primaria);
+  text-align: center;
+}
