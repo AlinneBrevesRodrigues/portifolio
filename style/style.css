@@ -156,7 +156,12 @@ body {
     font-size: 1.25em;
   }
 
+  .paragrafo {
+    list-style-position: inside;
+  }
+
   .rodape{
     width: auto;
   }
+
 }
