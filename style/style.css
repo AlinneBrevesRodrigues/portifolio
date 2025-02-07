@@ -120,21 +120,43 @@ body {
   text-align: center;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 428px) {
   .cabecalho{
-    padding: 10%;
+    padding: 2em 1em;
+    text-align: center;
   }
 
   .cabecalho-menu{
-    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: 0;
   }
 
   .container {
     flex-direction: column-reverse;
-    padding: 5%;
+    justify-content: center;
+    margin: 0;
+    padding: 1em 1em;
   }
 
   .container-conteudo {
+    width: auto;
+  }
+
+  .container-imagem {
+    width: 70vw;
+  }
+
+  .titulo {
+    font-size: 1.80em;
+  }
+
+  .link {
+    gap: 10px;
+    font-size: 1.25em;
+  }
+
+  .rodape{
     width: auto;
   }
 }
